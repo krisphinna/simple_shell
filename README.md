@@ -27,7 +27,7 @@ This simple shell is a Shell interface written in C programming language that gi
 - Your programs and functions will be compiled with `gcc 4.8.4` using the flags `-Wall` `-Werror` `-Wextra` and `-pedantic`
 - All your files should end with a new line
 - A `README.md` file, at the root of the folder of the project is mandatory
-- Your code should use the `Betty` style. It will be checked using [betty-style.pl](https://github.com/holbertonschool/Betty/blob/master/betty-style.pl "betty-style.pl") and [betty-doc.pl](https://github.com/holbertonschool/Betty/blob/master/betty-doc.pl "betty-doc.pl")
+- Your code should use the `Betty` style.
 - Your shell should not have any memory leaks
 - No more than 5 functions per file
 - All your header files should be include guarded
@@ -88,8 +88,6 @@ This simple shell is a Shell interface written in C programming language that gi
 
 
 
-
-
 ## Process Description
 
 The next steps are a brief description about how the shell works:
@@ -105,21 +103,19 @@ The next steps are a brief description about how the shell works:
 </p>
 
 
-
-
 ## Basic beggining
 
 To run this shell with its respective commands its necessary to clone this reposotory in your terminal. Do it like this:
 - HTTPS:
 
 ```c
-git clone https://github.com/Parsankamusa/simple_shell.git
+git clone https://github.com/krisphinna/simple_shell.git
 ```
 
 - SSH:
 
 ```
-git clone git@github.com:Parsankamusa/simple_shell.git
+git clone git@github.com:krisphinna/simple_shell.git
 ```
 
 ## Compiling, Debugging and Runing
@@ -156,11 +152,6 @@ AUTHORS  Hell_Shell  README.md auxiliar_functions.c  create_child.c  dir  execut
 ```
 
 ```shell
-Hell_Shell>> /bin/ls
-AUTHORS  Hell_Shell  README.md	auxiliar_functions.c  create_child.c  dir  execute.c  free_mem.c  generateAUTHORS  man_1_simple_shell  shell.h shell_init.c  tokening.c
-```
-
-```shell
 Hell_Shell>> ls -lat
 total 88
 drwxrwxr-x 4 vagrant vagrant  4096 Apr 16 17:04 .
@@ -194,11 +185,6 @@ Hello World
 ```
 - *Ctrl+D*  and  *Ctrl+C* 
 
-```shell
-Hell_Shell>> ^C
-Hell_Shell>> 
-vagrant@vagrant-ubuntu-trusty-64:~/HOLBERTON/simple_shell$ 
-```
 Node that in the second line the *Ctrl+C*  is typed
 ## 🤝 Contributing
 
